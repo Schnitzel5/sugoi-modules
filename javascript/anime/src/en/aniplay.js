@@ -1,5 +1,4 @@
-const mangayomiSources = [
-  {
+const mangayomiSources = [{
     "name": "Aniplay",
     "lang": "en",
     "id": 1060895795,
@@ -12,9 +11,8 @@ const mangayomiSources = [
     "version": "1.7.2",
     "dateFormat": "",
     "dateFormatLocale": "",
-    "pkgPath": "anime/src/en/aniplay.js",
-  }
-];
+    "pkgPath": "anime/src/en/aniplay.js"
+}];
 
 // Authors: - Swakshan
 
