@@ -1,6 +1,6 @@
 # Mangayomi Extensions
 
-This repository contains the available extension catalogues for the Mangayomi app.
+This repository contains the available extension catalogues for apps.
 
 ## How to add the extensions
 
