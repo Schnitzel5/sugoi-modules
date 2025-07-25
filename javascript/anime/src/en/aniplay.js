@@ -8,7 +8,7 @@ const mangayomiSources = [{
       "https://www.google.com/s2/favicons?sz=128&domain=https://aniplaynow.live/",
     "typeSource": "single",
     "itemType": 1,
-    "version": "1.7.2",
+    "version": "1.7.3",
     "dateFormat": "",
     "dateFormatLocale": "",
     "pkgPath": "anime/src/en/aniplay.js"
@@ -160,6 +160,7 @@ class DefaultExtension extends MProvider {
     const res = await this.makeGraphQLRequest(query, variables);
     const media = JSON.parse(res.body).data.Media;
     const anime = {};
+    anime.link = media?.id?.toString() || "";
     anime.name = (() => {
       var preferenceTitle = this.getPreference("aniplay_pref_title");
       switch (preferenceTitle) {
@@ -364,12 +365,12 @@ class DefaultExtension extends MProvider {
       anilistId = url.substring(url.lastIndexOf("info/") + 5);
     }
     var animeData = await this.getAnimeDetails(anilistId);
+    var slug = `info/${anilistId}`;
     animeData.link = `${this.getBaseUrl()}/anime/${slug}`;
 
     var chapters = [];
     var status = animeData.status;
     if (status != 4) {
-      var slug = `info/${anilistId}`;
       var body = [anilistId, true, false];
       var result = await this.aniplayRequest(slug, body);
       if (result.length < 1) {
@@ -400,11 +401,19 @@ class DefaultExtension extends MProvider {
           var hasDub = episode.hasOwnProperty("hasDub")
             ? episode.hasDub
             : false;
+          var img = episode.hasOwnProperty("img")
+            ? episode.img
+            : null;
+          var description = episode.hasOwnProperty("description")
+            ? episode.description
+            : null;
 
           chap.title = title == "" ? chap.title : title;
           chap.isFiller = isFiller || chap.isFiller;
           chap.hasDub = hasDub || chap.hasDub;
           chap.updatedAt = updatedAt ?? chap.updatedAt;
+          chap.img = img ?? chap.updatedAt;
+          chap.description = description ?? chap.updatedAt;
 
           var prvds = chap.hasOwnProperty("prvds") ? chap["prvds"] : {};
           prvds[providerId] = { anilistId, providerId, id, number, hasDub };
