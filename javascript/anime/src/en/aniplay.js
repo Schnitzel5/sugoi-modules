@@ -412,8 +412,8 @@ class DefaultExtension extends MProvider {
           chap.isFiller = isFiller || chap.isFiller;
           chap.hasDub = hasDub || chap.hasDub;
           chap.updatedAt = updatedAt ?? chap.updatedAt;
-          chap.img = img ?? chap.updatedAt;
-          chap.description = description ?? chap.updatedAt;
+          chap.img = img;
+          chap.description = description;
 
           var prvds = chap.hasOwnProperty("prvds") ? chap["prvds"] : {};
           prvds[providerId] = { anilistId, providerId, id, number, hasDub };
