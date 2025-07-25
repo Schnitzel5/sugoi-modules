@@ -28,7 +28,7 @@ void genManga(List<Source> jsMangasourceList) {
       .toList();
   final jsonString = jsonEncode(jsonList);
 
-  final file = File('index.json');
+  final file = File('msugoi.json');
   file.writeAsStringSync(jsonString);
 
   log('JSON file created: ${file.path}');
@@ -43,7 +43,7 @@ void genAnime(List<Source> jsAnimesourceList) {
       .toList();
   final jsonString = jsonEncode(jsonList);
 
-  final file = File('anime_index.json');
+  final file = File('asugoi.json');
   file.writeAsStringSync(jsonString);
 
   log('JSON file created: ${file.path}');
@@ -58,7 +58,7 @@ void genNovel(List<Source> jsNovelSourceList) {
       .toList();
   final jsonString = jsonEncode(jsonList);
 
-  final file = File('novel_index.json');
+  final file = File('nsugoi.json');
   file.writeAsStringSync(jsonString);
 
   log('JSON file created: ${file.path}');
@@ -88,7 +88,7 @@ List<Source> _searchJsSources(Directory dir) {
                 ..appMinVerReq =
                     sourceJson["appMinVerReq"] ?? defaultSource.appMinVerReq
                 ..sourceCodeUrl =
-                    "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/javascript/${sourceJson["pkgPath"] ?? sourceJson["pkgName"]}";
+                    "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/javascript/${sourceJson["pkgPath"] ?? sourceJson["pkgName"]}";
               if (sourceJson["id"] != null) {
                 source = source..id = int.tryParse("${sourceJson["id"]}");
               }

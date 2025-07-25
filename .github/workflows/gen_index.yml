@@ -25,9 +25,9 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git checkout main
-          git add index.json
-          git add anime_index.json
-          git add novel_index.json
+          git add msugoi.json
+          git add asugoi.json
+          git add nsugoi.json
           if git diff --cached --quiet; then
             echo "No changes detected, skipping commit."
           else
