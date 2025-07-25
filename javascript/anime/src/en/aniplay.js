@@ -13,7 +13,7 @@ const mangayomiSources = [
     "dateFormat": "",
     "dateFormatLocale": "",
     "pkgPath": "anime/src/en/aniplay.js",
-  },
+  }
 ];
 
 // Authors: - Swakshan
