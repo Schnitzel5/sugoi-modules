@@ -88,7 +88,7 @@ List<Source> _searchJsSources(Directory dir) {
                 ..appMinVerReq =
                     sourceJson["appMinVerReq"] ?? defaultSource.appMinVerReq
                 ..sourceCodeUrl =
-                    "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/javascript/${sourceJson["pkgPath"] ?? sourceJson["pkgName"]}";
+                    "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/javascript/${sourceJson["pkgPath"] ?? sourceJson["pkgName"]}";
               if (sourceJson["id"] != null) {
                 source = source..id = int.tryParse("${sourceJson["id"]}");
               }
