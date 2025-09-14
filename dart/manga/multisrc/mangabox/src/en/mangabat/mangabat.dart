@@ -8,7 +8,7 @@ Source _mangabatSource = Source(
   lang: "en",
   typeSource: "mangabox",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/mangabox/src/en/mangabat/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/mangabox/src/en/mangabat/icon.png",
   dateFormat: "MMM dd,yy",
   dateFormatLocale: "en",
 );

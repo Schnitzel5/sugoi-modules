@@ -9,7 +9,7 @@ Source _mangaclashSource = Source(
 
   typeSource: "madara",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/src/en/mangaclash/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/madara/src/en/mangaclash/icon.png",
   dateFormat: "MM/dd/yy",
   dateFormatLocale: "en_us",
 );

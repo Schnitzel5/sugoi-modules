@@ -5,7 +5,7 @@ const mangayomiSources = [
     "baseUrl": "https://annas-archive.org",
     "apiUrl": "",
     "iconUrl":
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/all.annasarchive.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/javascript/icon/all.annasarchive.png",
     "typeSource": "single",
     "itemType": 2,
     "version": "0.0.1",

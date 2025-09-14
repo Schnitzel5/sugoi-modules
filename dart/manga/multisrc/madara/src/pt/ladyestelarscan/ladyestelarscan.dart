@@ -9,7 +9,7 @@ Source _ladyestelarscanSource = Source(
 
   typeSource: "madara",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/src/pt/ladyestelarscan/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/madara/src/pt/ladyestelarscan/icon.png",
   dateFormat: "dd/MM/yyyy",
   dateFormatLocale: "pt-br",
 );

@@ -3,7 +3,7 @@ const mangayomiSources = [{
   "lang": "zh",
   "baseUrl": "https://mikanani.me",
   "apiUrl": "",
-  "iconUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/zh.mikan.png",
+  "iconUrl": "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/javascript/icon/zh.mikan.png",
   "typeSource": "torrent",
   "itemType": 1,
   "isNsfw": false,

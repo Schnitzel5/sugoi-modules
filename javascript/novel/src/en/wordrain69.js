@@ -4,7 +4,7 @@ const mangayomiSources = [{
   "baseUrl": "https://wordrain69.com",
   "apiUrl": "",
   "iconUrl":
-    "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/en.wordrain69.png",
+    "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/javascript/icon/en.wordrain69.png",
   "typeSource": "single",
   "itemType": 2,
   "version": "0.0.4",

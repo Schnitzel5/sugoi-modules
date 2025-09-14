@@ -2,10 +2,10 @@ import '../../../../../model/source.dart';
 
 const _animeworldindiaVersion = "0.0.35";
 const _animeworldindiaSourceCodeUrl =
-    "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/anime/src/all/animeworldindia/animeworldindia.dart";
+    "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/anime/src/all/animeworldindia/animeworldindia.dart";
 
 String _iconUrl =
-    "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/anime/src/all/animeworldindia/icon.png";
+    "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/anime/src/all/animeworldindia/icon.png";
 
 List<String> _languages = [
   "all",

@@ -50,7 +50,7 @@ const mangayomiSources = [{
     },
     "baseUrl": "https://mangadex.org",
     "apiUrl": "https://api.mangadex.org",
-    "iconUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/all.mangadex.png",
+    "iconUrl": "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/javascript/icon/all.mangadex.png",
     "typeSource": "single",
     "itemType": 0,
     "version": "0.1.4",

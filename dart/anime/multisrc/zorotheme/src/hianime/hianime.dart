@@ -10,5 +10,5 @@ Source _aniwatchSource = Source(
   lang: "en",
   typeSource: "zorotheme",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/anime/multisrc/zorotheme/src/hianime/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/anime/multisrc/zorotheme/src/hianime/icon.png",
 );

@@ -8,7 +8,7 @@ Source _mangamoonSource = Source(
   isNsfw: false,
   typeSource: "mangareader",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/th/mangamoon/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/mangareader/src/th/mangamoon/icon.png",
   dateFormat: "MMMM d, yyyy",
   dateFormatLocale: "th",
 );

@@ -3,7 +3,7 @@ const mangayomiSources = [{
   "lang": "zh",
   "baseUrl": "https://www.manhuagui.com",
   "apiUrl": "",
-  "iconUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/zh.manhuagui.png",
+  "iconUrl": "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/javascript/icon/zh.manhuagui.png",
   "typeSource": "single",
   "itemType": 0,
   "isNsfw": false,

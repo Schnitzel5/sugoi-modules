@@ -151,7 +151,7 @@ import 'src/tr/webtoonhatti/webtoonhatti.dart';
 
 const madaraVersion = "0.1.3";
 const madaraSourceCodeUrl =
-    "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/madara.dart";
+    "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/madara/madara.dart";
 
 List<Source> get madaraSourcesList => _madaraSourcesList;
 List<Source> _madaraSourcesList =

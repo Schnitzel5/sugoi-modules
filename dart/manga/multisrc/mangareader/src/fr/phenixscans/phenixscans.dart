@@ -8,7 +8,7 @@ Source _phenixscansSource = Source(
   lang: "fr",
   typeSource: "mangareader",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/mangareader/src/fr/phenixscans/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/mangareader/src/fr/phenixscans/icon.png",
   dateFormat: "MMMM dd, yyyy",
   dateFormatLocale: "fr",
 );

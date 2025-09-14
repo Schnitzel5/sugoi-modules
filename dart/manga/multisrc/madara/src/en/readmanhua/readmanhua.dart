@@ -8,7 +8,7 @@ Source _readmanhuaSource = Source(
   isNsfw: false,
   typeSource: "madara",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/manga/multisrc/madara/src/en/readmanhua/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/dart/manga/multisrc/madara/src/en/readmanhua/icon.png",
   dateFormat: "dd MMM yyyy",
   dateFormatLocale: "en_us",
 );

@@ -8,7 +8,7 @@ Source _manhuaonlineSource = Source(
   isNsfw: false,
   typeSource: "madara",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/dart/manga/multisrc/madara/src/es/manhuaonline/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/dart/manga/multisrc/madara/src/es/manhuaonline/icon.png",
   dateFormat: "dd 'de' MMMM 'de' yyyy",
   dateFormatLocale: "es",
 );

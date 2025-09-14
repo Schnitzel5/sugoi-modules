@@ -9,7 +9,7 @@ Source _wickedwitchscanSource = Source(
 
   typeSource: "madara",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/madara/src/pt/wickedwitchscan/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/madara/src/pt/wickedwitchscan/icon.png",
   dateFormat: "MMMMM dd, yyyy",
   dateFormatLocale: "pt-br",
 );

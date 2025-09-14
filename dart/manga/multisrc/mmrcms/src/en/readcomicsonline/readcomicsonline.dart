@@ -9,7 +9,7 @@ Source _readcomicsonlineSource = Source(
 
   typeSource: "mmrcms",
   iconUrl:
-      "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/$branchName/dart/manga/multisrc/mmrcms/src/en/readcomicsonline/icon.png",
+      "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/$branchName/dart/manga/multisrc/mmrcms/src/en/readcomicsonline/icon.png",
   dateFormat: "d MMM. yyyy",
   dateFormatLocale: "en_us",
 );

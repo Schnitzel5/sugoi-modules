@@ -3,7 +3,7 @@ const mangayomiSources = [{
     "lang": "all",
     "baseUrl": "https://torrentio.strem.fun",
     "apiUrl": "",
-    "iconUrl": "https://raw.githubusercontent.com/m2k3a/mangayomi-extensions/main/javascript/icon/all.torrentio.png",
+    "iconUrl": "https://raw.githubusercontent.com/Schnitzel5/sugoi-modules/main/javascript/icon/all.torrentio.png",
     "typeSource": "torrent",
     "isManga": false,
     "itemType": 1,
